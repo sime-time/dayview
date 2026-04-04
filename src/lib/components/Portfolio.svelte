@@ -1,26 +1,26 @@
 <script lang="ts">
-	const reels = [
-		{
-			title: 'Night City Live',
-			tag: 'Event Promotion',
-			placeholder: 'placeholder-a'
-		},
-		{
-			title: 'The Keynote Series',
-			tag: 'Personal Branding',
-			placeholder: 'placeholder-b'
-		},
-		{
-			title: 'Aura Minimalist',
-			tag: 'Event Promotion',
-			placeholder: 'placeholder-c'
-		},
-		{
-			title: 'Vibe Check 2.0',
-			tag: 'Personal Branding',
-			placeholder: 'placeholder-d'
-		}
-	];
+const reels = [
+	{
+		title: "oktoberfest",
+		tag: "Event Promotion",
+		placeholder: "placeholder-a",
+	},
+	{
+		title: "villa lifestyle",
+		tag: "Personal Branding",
+		placeholder: "placeholder-b",
+	},
+	{
+		title: "halloweenie",
+		tag: "Event Promotion",
+		placeholder: "placeholder-c",
+	},
+	{
+		title: "cartel vibes",
+		tag: "Personal Branding",
+		placeholder: "placeholder-d",
+	},
+];
 </script>
 
 <section class="portfolio" id="portfolio" aria-label="Portfolio section">
@@ -28,9 +28,9 @@
 		<div class="portfolio-head">
 			<div>
 				<p class="eyebrow">Selected Works</p>
-				<h2>Portfolio</h2>
+				<h2>portfolio</h2>
 			</div>
-			<p class="intro">Capturing motion, emotion, and the digital pulse of modern storytelling.</p>
+			<p class="intro">capturing motion, emotion, and the digital pulse of modern storytelling.</p>
 		</div>
 
 		<div class="reels-grid">

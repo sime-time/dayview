@@ -10,19 +10,19 @@ import aboutDay from "$lib/assets/about-day.webp";
 
 		<div class="about-content">
 			<p class="eyebrow">About</p>
-			<h2>Meet Dayanna</h2>
+			<h2>meet dayanna</h2>
 			<p class="about-copy">
-				Dayanna brings 3 years of direct sales experience and 4 years of videography and social
+				dayanna brings 3 years of direct sales experience and 4 years of videography and social
 				media account management.
 			</p>
 			<p class="about-copy muted">
-				She blends strategy with storytelling to create shortform content that drives visibility,
+				she blends strategy with storytelling to create shortform content that drives visibility,
 				engagement, and momentum for event promotion and personal brands.
 			</p>
 
 			<div class="badges" aria-label="Experience highlights">
 				<span>3 years of direct sales</span>
-				<span>Social media strategy</span>
+				<span>social media strategy</span>
 			</div>
 		</div>
 	</div>

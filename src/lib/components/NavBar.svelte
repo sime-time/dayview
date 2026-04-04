@@ -4,9 +4,9 @@ import logo from "$lib/assets/dayview.webp";
 let menuOpen = $state(false);
 
 const navLinks = [
-	{ href: "/", label: "Home" },
-	{ href: "/#portfolio", label: "Portfolio" },
-	{ href: "/#about", label: "About" },
+	{ href: "/", label: "home" },
+	{ href: "/#portfolio", label: "portfolio" },
+	{ href: "/#about", label: "about" },
 ];
 
 const closeMenu = () => {
@@ -28,7 +28,7 @@ const closeMenu = () => {
 			{/each}
 		</ul>
 
-		<a class="cta desktop-cta" href="/contact">Contact Me</a>
+		<a class="cta desktop-cta" href="/contact">contact me</a>
 
 		<button
 			type="button"
@@ -50,7 +50,7 @@ const closeMenu = () => {
 					</li>
 				{/each}
 			</ul>
-			<a class="cta mobile-cta" href="/contact" onclick={closeMenu}>Contact Me</a>
+			<a class="cta mobile-cta" href="/contact" onclick={closeMenu}>contact me</a>
 		</div>
 	{/if}
 </header>

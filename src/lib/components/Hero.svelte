@@ -5,23 +5,23 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 <section class="hero" id="home" aria-label="Hero section">
 	<div class="hero-inner">
 		<header class="headline-wrap">
-			<h1 class="headline-sans">Hi I'm Day</h1>
-			<p class="headline-serif">Creative Director</p>
+			<h1 class="headline-sans">hi i'm day</h1>
+			<p class="headline-serif">creative director</p>
 		</header>
 
 		<p class="availability">
 			<span class="dot" aria-hidden="true"></span>
-			Available for new opportunities
+			available for new opportunities
 		</p>
 
-		<p class="hero-copy">Social media videographer for <u>event promotion</u> and <u>personal branding.</u></p>
+		<p class="hero-copy">social media videographer for <u>event promotion</u> and <u>personal branding.</u></p>
 
 		<div class="hero-image-wrap">
 			<img src={dayanna} alt="Dayanna posing in a burgundy dress" />
 		</div>
 
 		<div class="hero-cta-wrap">
-			<a href="#contact" class="hero-cta">Let's Talk</a>
+			<a href="#contact" class="hero-cta">let's talk</a>
 		</div>
 	</div>
 </section>

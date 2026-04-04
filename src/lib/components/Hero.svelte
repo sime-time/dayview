@@ -1,5 +1,5 @@
 <script lang="ts">
-import dayanna from "$lib/assets/dayanna-dress.png";
+import dayanna from "$lib/assets/dayanna-dress.webp";
 </script>
 
 <section class="hero" id="home" aria-label="Hero section">

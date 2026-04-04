@@ -1,5 +1,5 @@
 <script lang="ts">
-	import aboutDay from '$lib/assets/about-day.png';
+import aboutDay from "$lib/assets/about-day.webp";
 </script>
 
 <section class="about" id="about" aria-label="About section">

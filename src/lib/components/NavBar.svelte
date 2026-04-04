@@ -1,5 +1,5 @@
 <script lang="ts">
-import logo from "$lib/assets/dayview.png";
+import logo from "$lib/assets/dayview.webp";
 
 let menuOpen = $state(false);
 

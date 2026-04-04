@@ -4,9 +4,9 @@ import logo from "$lib/assets/dayview.png";
 let menuOpen = $state(false);
 
 const navLinks = [
-	{ href: "#home", label: "Home" },
-	{ href: "#portfolio", label: "Portfolio" },
-	{ href: "#about", label: "About" },
+	{ href: "/", label: "Home" },
+	{ href: "/#portfolio", label: "Portfolio" },
+	{ href: "/#about", label: "About" },
 ];
 
 const closeMenu = () => {
@@ -16,7 +16,7 @@ const closeMenu = () => {
 
 <header class="navbar-wrap">
 	<nav class="navbar" aria-label="Main navigation">
-		<a class="brand" href="#home" aria-label="Go to home section" onclick={closeMenu}>
+		<a class="brand" href="/" aria-label="Go to home section" onclick={closeMenu}>
 			<img src={logo} alt="Dayanna logo" />
 		</a>
 
@@ -28,7 +28,7 @@ const closeMenu = () => {
 			{/each}
 		</ul>
 
-		<a class="cta desktop-cta" href="#contact">Contact Me</a>
+		<a class="cta desktop-cta" href="/contact">Contact Me</a>
 
 		<button
 			type="button"
@@ -50,7 +50,7 @@ const closeMenu = () => {
 					</li>
 				{/each}
 			</ul>
-			<a class="cta mobile-cta" href="#contact" onclick={closeMenu}>Contact Me</a>
+			<a class="cta mobile-cta" href="/contact" onclick={closeMenu}>Contact Me</a>
 		</div>
 	{/if}
 </header>

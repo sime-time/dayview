@@ -1,0 +1,24 @@
+<svelte:head>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+  >
+  <title>dayview request</title>
+</svelte:head>
+
+<iframe
+  class="request-frame"
+  src="https://app.youform.com/forms/hz4skza5"
+  title="dayview request"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+<style>
+  .request-frame {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100dvh;
+    border: 0;
+  }
+</style>

@@ -1,12 +1,12 @@
 <section class="contact" id="contact" aria-label="Contact section">
 	<div class="contact-inner">
 		<p class="eyebrow">Let's Collaborate</p>
-		<h2>Ready to make your next campaign impossible to ignore?</h2>
+		<h2>Ready to make your content impossible to ignore?</h2>
 		<p class="subtext">
 			Fill out a quick form and book a meeting with Dayanna to plan your next shortform video
 			strategy.
 		</p>
-		<button class="cta" type="button" aria-label="Open booking form">Book a Meeting</button>
+		<a href="/contact" class="cta" type="button" aria-label="Open booking form">Book a Meeting</a>
 	</div>
 </section>
 

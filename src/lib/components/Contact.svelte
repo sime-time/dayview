@@ -71,11 +71,11 @@
 		font-size: 0.98rem;
 		font-weight: 700;
 		letter-spacing: 0.01em;
-		transition: background-color 180ms ease, transform 180ms ease;
+		transition: color 180ms ease, transform 180ms ease;
 	}
 
 	.cta:hover {
-		background: var(--color-accent);
+		color: var(--color-accent);
 		transform: translateY(-1px);
 	}
 

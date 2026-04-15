@@ -128,11 +128,11 @@ const closeMenu = () => {
 		letter-spacing: 0.01em;
 		color: #ffffff;
 		box-shadow: var(--shadow-ambient);
-		transition: background-color 180ms ease, transform 180ms ease;
+		transition: color 180ms ease, transform 180ms ease;
 	}
 
 	.cta:hover {
-		background: var(--color-accent);
+		color: var(--color-accent);
 		transform: translateY(-1px);
 	}
 

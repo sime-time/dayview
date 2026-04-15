@@ -165,11 +165,11 @@ import dayHero from "$lib/assets/day-hero.webp";
 		letter-spacing: 0.01em;
 		color: #ffffff;
 		box-shadow: var(--shadow-ambient);
-		transition: transform 180ms ease, background-color 180ms ease;
+		transition: transform 180ms ease, color 180ms ease;
 	}
 
 	.hero-cta:hover {
-		background: var(--color-accent);
+		color: var(--color-accent);
 		transform: translateY(-1px);
 	}
 

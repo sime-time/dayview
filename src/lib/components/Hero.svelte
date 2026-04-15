@@ -1,5 +1,5 @@
 <script lang="ts">
-import dayanna from "$lib/assets/dayanna-dress.webp";
+import dayHero from "$lib/assets/day-hero.webp";
 </script>
 
 <section class="hero" id="home" aria-label="Hero section">
@@ -14,10 +14,10 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 			available for new opportunities
 		</p>
 
-		<p class="hero-copy">social media videographer for <u>event promotion</u> and <u>personal branding.</u></p>
+		<p class="hero-copy">visual storyteller that likes to think outside the box.</p>
 
 		<div class="hero-image-wrap">
-			<img src={dayanna} alt="Dayanna posing in a burgundy dress" />
+			<img src={dayHero} alt="Dayanna posing in a burgundy dress" />
 		</div>
 
 		<div class="hero-cta-wrap">
@@ -29,7 +29,9 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 <style>
 	.hero {
 		position: relative;
-		overflow: clip;
+		overflow-x: clip;
+		overflow-y: visible;
+		z-index: 1;
 		padding: clamp(1rem, 3vw, 2.2rem) 1rem 0;
 		background: linear-gradient(to bottom, var(--color-surface) 0%, var(--color-accent) 100%);
 	}
@@ -37,10 +39,10 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 	.hero-inner {
 		position: relative;
 		z-index: 1;
-		max-width: 1180px;
+		max-width: 1320px;
 		margin: 0 auto;
 		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(460px, 620px) minmax(0, 1fr);
+		grid-template-columns: minmax(0, 1fr) minmax(520px, 760px) minmax(0, 1fr);
 		grid-template-rows: auto auto auto;
 		align-items: start;
 		gap: 0.5rem;
@@ -129,8 +131,8 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 		z-index: 3;
 		align-self: end;
 		justify-self: center;
-		width: min(100%, 620px);
-		margin-top: 1.8rem;
+		width: min(100%, 760px);
+		margin-top: 2.1rem;
 	}
 
 	.hero-image-wrap img {
@@ -172,11 +174,15 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 	}
 
 	@media (max-width: 1100px) {
+		.hero {
+			overflow: clip;
+		}
+
 		.hero-inner {
 			grid-template-columns: 1fr;
 			grid-template-rows: auto;
 			justify-items: center;
-			gap: 0.85rem;
+			gap: 1rem;
 		}
 
 		.headline-wrap,
@@ -197,10 +203,18 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 
 		.hero-image-wrap {
 			grid-row: 2;
-			width: min(88vw, 540px);
-			margin-top: -0.3rem;
+			width: auto;
+			margin-top: 0.15rem;
+			margin-bottom: 0.25rem;
 			z-index: 1;
 			transform: none;
+		}
+
+		.hero-image-wrap img {
+			width: auto;
+			height: clamp(340px, 56vh, 560px);
+			max-width: min(88vw, 520px);
+			object-position: center top;
 		}
 
 		.availability {
@@ -225,6 +239,7 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 	@media (min-width: 1101px) {
 		.hero {
 			min-height: calc(100vh - 96px);
+			padding-bottom: 0;
 		}
 
 		.headline-wrap {
@@ -232,7 +247,14 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 		}
 
 		.hero-image-wrap {
-			transform: translateY(42px);
+			width: auto;
+			transform: translateY(clamp(80px, 6vw, 130px));
+		}
+
+		.hero-image-wrap img {
+			width: auto;
+			height: clamp(620px, 73vh, 860px);
+			max-width: min(62vw, 940px);
 		}
 	}
 
@@ -256,10 +278,19 @@ import dayanna from "$lib/assets/dayanna-dress.webp";
 		.availability {
 			font-size: 0.84rem;
 			padding: 0.58rem 0.9rem;
+			margin-top: -0.85rem;
+			position: relative;
+			z-index: 4;
 		}
 
 		.hero-image-wrap {
-			width: min(90vw, 420px);
+			margin-top: 0.1rem;
+			margin-bottom: -1rem;
+		}
+
+		.hero-image-wrap img {
+			height: clamp(310px, 52vh, 440px);
+			max-width: 86vw;
 		}
 
 		.hero-cta {

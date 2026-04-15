@@ -47,11 +47,15 @@ const reels = [
 
 <style>
 	.portfolio {
+		position: relative;
+		z-index: 2;
 		padding: 0 1rem clamp(3.2rem, 6vw, 5rem);
 		background: linear-gradient(to bottom, var(--color-accent) 0%, #ff8fd4 100%);
 	}
 
 	.portfolio-inner {
+		position: relative;
+		z-index: 3;
 		max-width: 1280px;
 		margin: 0 auto;
 		padding: clamp(1.5rem, 3vw, 2.3rem);
@@ -166,6 +170,10 @@ const reels = [
 	}
 
 	@media (max-width: 1080px) {
+		.portfolio {
+			padding-top: clamp(2.6rem, 7vw, 4rem);
+		}
+
 		.portfolio-head {
 			grid-template-columns: 1fr;
 			align-items: start;

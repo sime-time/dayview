@@ -9,11 +9,11 @@
 	},
 	"routes": [
 		{
-			"pattern": "dayviewmedia.com/*",
+			"pattern": "dayviewmedia.com",
 			"custom_domain": true
 		},
 		{
-			"pattern": "www.dayviewmedia.com/*",
+			"pattern": "www.dayviewmedia.com",
 			"custom_domain": true
 		}
 	]

@@ -1,28 +1,32 @@
 <script lang="ts">
-import aboutDay from "$lib/assets/about-day.webp";
+import dayWithCamera from "$lib/assets/daywithcamera.jpeg";
 </script>
 
 <section class="about" id="about" aria-label="About section">
 	<div class="about-inner">
 		<div class="about-image-wrap">
-			<img src={aboutDay} alt="Dayanna smiling portrait" />
+			<img src={dayWithCamera} alt="dayanna smiling portrait" />
 		</div>
 
 		<div class="about-content">
-			<p class="eyebrow">About</p>
+			<p class="eyebrow">about</p>
 			<h2>meet dayanna</h2>
 			<p class="about-copy">
-				dayanna brings 3 years of direct sales experience and 4 years of videography and social
-				media account management.
+				dayanna holds a bachelor's degree in event management and hospitality, with hands-on event
+				design experience plus 3 years of direct sales and 4 years of videography and social media
+				account management.
 			</p>
 			<p class="about-copy muted">
-				she blends strategy with storytelling to create shortform content that drives visibility,
-				engagement, and momentum for event promotion and personal brands.
+				she is a powerhouse for hospitality marketing, blending buyer psychology, on-the-ground event
+				knowledge, and strategic short-form content to turn attention into bookings, inquiries, and
+				measurable results.
 			</p>
 
 			<div class="badges" aria-label="Experience highlights">
 				<span>3 years of direct sales</span>
-				<span>social media strategy</span>
+				<span>bachelor's in hospitality</span>
+				<span>event design experience</span>
+				<span>marketing video strategy</span>
 			</div>
 		</div>
 	</div>
@@ -47,17 +51,22 @@ import aboutDay from "$lib/assets/about-day.webp";
 	}
 
 	.about-image-wrap {
+		aspect-ratio: 4 / 5;
 		border-radius: 26px;
 		overflow: hidden;
 		background: var(--color-accent-soft);
-		box-shadow: 0 30px 58px rgb(17 17 17 / 0.04);
+		box-shadow:
+			0 22px 48px rgb(17 17 17 / 0.08),
+			0 0 0 6px rgb(255 102 196 / 0.12),
+			0 0 38px rgb(255 102 196 / 0.28);
 	}
 
 	.about-image-wrap img {
 		display: block;
 		width: 100%;
-		height: auto;
+		height: 100%;
 		object-fit: cover;
+		object-position: center 32%;
 	}
 
 	.about-content {

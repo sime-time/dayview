@@ -5,23 +5,26 @@ import dayHero from "$lib/assets/day-hero.webp";
 <section class="hero" id="home" aria-label="Hero section">
 	<div class="hero-inner">
 		<header class="headline-wrap">
-			<h1 class="headline-sans">hi i'm day</h1>
-			<p class="headline-serif">creative director</p>
+			<h1 class="headline-sans">hi i'm day.</h1>
+			<p class="headline-serif">i make content that sells</p>
 		</header>
 
 		<p class="availability">
 			<span class="dot" aria-hidden="true"></span>
-			available for new opportunities
+			booking growth-focused projects
 		</p>
 
-		<p class="hero-copy">visual storyteller that likes to think outside the box.</p>
+		<p class="hero-copy">
+			i combine sales strategy with short-form video so your content does more than get views - it
+			drives bookings, leads, and real business momentum.
+		</p>
 
 		<div class="hero-image-wrap">
-			<img src={dayHero} alt="Dayanna posing in a burgundy dress" />
+			<img src={dayHero} alt="dayanna posing in a burgundy dress" />
 		</div>
 
 		<div class="hero-cta-wrap">
-			<a href="#contact" class="hero-cta">let's talk</a>
+			<a href="#contact" class="hero-cta">book a strategy call</a>
 		</div>
 	</div>
 </section>

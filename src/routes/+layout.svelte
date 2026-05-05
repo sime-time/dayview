@@ -2,6 +2,7 @@
 import favicon from "$lib/assets/favicon.svg";
 import "@fontsource-variable/playfair-display";
 import "@fontsource-variable/mulish";
+import NavBar from "$lib/components/NavBar.svelte";
 
 let { children } = $props();
 </script>
@@ -27,6 +28,7 @@ let { children } = $props();
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
+<NavBar />
 {@render children()}
 
 <style>

@@ -5,7 +5,7 @@ let menuOpen = $state(false);
 
 const navLinks = [
 	{ href: "/", label: "home" },
-	{ href: "/#portfolio", label: "portfolio" },
+	{ href: "/portfolio", label: "portfolio" },
 	{ href: "/#about", label: "about" },
 ];
 
